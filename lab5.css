@@ -1,0 +1,60 @@
+form {
+	display: flex;
+}
+
+fieldset {
+	width: 300px;
+	margin: 0 auto;
+	display: inline;
+	border-color: rgb(48, 176, 255);
+  	border-style: solid;
+	font-family: Cambria, Cochin, Georgia, Times;
+	border-radius: 15px;
+	background: azure;
+}
+
+input[type='text'] {
+	border-radius: 5px;
+	border: 2px rgb(0, 0, 0) solid;
+	padding: 10px;
+	margin: 5px 0;
+	width: 100%;
+	box-sizing: border-box;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px 0;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: Cambria, Cochin, Georgia, Times;
+	font-size: medium;
+}
+
+div {
+	width: max-content;
+	margin: 0 auto;
+	padding:0 40px ;
+	font-family: Cambria, Cochin, Georgia, Times;
+}
+
+#task1{
+	display: flex;
+	flex-direction: row;
+}
+
+label[for=color_input]{
+	font-family: Cambria;
+	font-size:150%;
+}
+
+table, td {
+	font-family: Cambria, Cochin, Georgia, Times;
+	font-size: 200%;
+	border: 2px solid #000000;
+	border-collapse: collapse;
+	padding: 10px;
+	text-align: center;
+}
